@@ -1,9 +1,9 @@
 
 age = int(input("Enter your age: "))
 if 18 <= age <= 64:
-    weight_kg = float(input("Enter your weight in kg:"))
-    height_m = float(input("Enter your height in meters:"))
-    bmi = weight_kg / (height_m * height_m)
+    weight_lbs = float(input("Enter your weight in pounds:"))
+    height_in = float(input("Enter your height in inches:"))
+    bmi = weight_lbs / (height_in * height_in)
     print("BMI:", bmi)
     if bmi < 19:
         print("You are underweight")
